@@ -1,0 +1,26 @@
+{
+  "name": "git-marketplace",
+  "owner": {
+    "name": "Git Marketplace",
+    "email": "noreply@example.com"
+  },
+  "metadata": {
+    "description": "Marketplace for git-related plugins",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "smart-commit",
+      "source": "./plugins/smart-commit",
+      "description": "Generate conventional commits from staged git changes using AI analysis",
+      "version": "1.0.0",
+      "category": "git",
+      "tags": [
+        "git",
+        "commit",
+        "conventional-commits",
+        "automation"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "smart-commit",
+  "version": "1.0.0",
+  "description": "Generate conventional commits from staged git changes using AI analysis",
+  "author": {
+    "name": "Claude Code Plugin Author"
+  },
+  "keywords": ["git", "commit", "conventional-commits", "automation"],
+  "commands": ["./commands/commit-staged.md"],
+  "skills": ["./skills/smart-commit/"]
+}
